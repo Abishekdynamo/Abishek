@@ -1,0 +1,6 @@
+TakesScreenshot Screenshot=(TakesScreenshot) driver;	
+    File sourceFile=Screenshot.getScreenshotAs(OutputType.FILE);
+    File destinationfile = new File("C:\\Users\\mailt\\eclipse-workspace\\Selenium\\Evidence\\screenshot.png");
+    FileHandler.copy(sourceFile, destinationfile);
+    
+	
